@@ -1,0 +1,13 @@
+git init -> Inicia um repositório;
+git remote add origin <link> -> Origem do repositório
+git status -> Branch, commits e arquivos atuais;
+git add <arquivo> -> Arquivo para commit;
+git add . -> Adiciona arquivo;
+git reset <arquivo> -> Retorna arquivo;
+git reset . -> Retorna todos os arquivos;
+git commit -m "messagem" -> Commit de todos os arquivos;
+git checkout -b nome-da-branch -> Cria uma nova branch e navega para ela;
+git checkout nome-da-branch -> Navega para outra branch;
+git pull nome-da-branch -> Puxa uma branch na origem para a branch atual, dando merge em suas mudanças;
+git push nome-da-branch -> Empurra a branch atual para uma branch local, dando merge em suas mudanças;
+git push origin nome-da-branch -> Empurra a branch da atual para a origem com as mudanças.
